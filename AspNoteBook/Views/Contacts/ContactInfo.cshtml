@@ -1,0 +1,60 @@
+﻿@model ContactInfoModel
+
+@{
+}
+
+<div class="container">
+
+    <article class="article mx-auto">
+
+        <h2 class="article-title">Информация о контакте</h2>
+
+        <table class="table">
+            <tbody>
+
+                <tr>
+                    <td class="table-col-1">
+                        Id:
+                    </td>
+                    <td>
+                        @Model.Id
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-col-1">
+                        ФИО:
+                    </td>
+                    <td>
+                        @string.Format($"{Model.LastName} {Model.FirstName} {Model.Patronymic}")
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-col-1">
+                        Телефон:
+                    </td>
+                    <td>
+                        @Model.Phone
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-col-1">
+                        Адрес:
+                    </td>
+                    <td>
+                        @Model.Address
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-col-1">
+                        Описание:
+                    </td>
+                    <td>
+                        @Model.Description
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="/Contacts/ContactList">Назад к списку контактов</a>
+    </article>
+
+</div>

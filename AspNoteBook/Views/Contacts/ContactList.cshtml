@@ -1,0 +1,39 @@
+﻿@model ContactListModel
+
+@{
+    ViewData["Title"] = "Практическая работа модуля 19. Контакты";
+}
+
+<div class="container">
+    <article class="article mx-auto">
+
+        <h2 class="article-title">Список контактов</h2>
+
+        <table class="mx-auto table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Фамилия</th>
+                    <th>Имя</th>
+                    <th>Отчество</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @{
+                    foreach (ContactEntity contact in Model.Contacts)
+                    {
+                        <tr>
+                            <td class="cell">
+                                <a class="id-link" href="/Contacts/ContactInfo/@contact.Id">@contact.Id</a>
+                            </td>
+                            <td class="cell">@contact.LastName</td>
+                            <td class="cell">@contact.FirstName</td>
+                            <td class="cell">@contact.Patronymic</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </article>
+</div>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<contacts>
+  <contact id="1" lastName="Иванов" firstName="Иван" patronymic="Иванович" phone="9112990596" address="г. Санкт-Петербург, ул. Ленина, д. 1, кв. 2" description="Программист Иван" />
+  <contact id="2" lastName="Петров" firstName="Сергей" patronymic="Георгиевич" phone="9212490597" address="г. Москва, Тверская, д. 21, кв. 23" description="Строитель Сергей" />
+  <contact id="3" lastName="Сидоров" firstName="Андрей" patronymic="Афанасьевич" phone="9313290666" address="г. Санкт-Петербург, ул. Лабутина, д. 3, кв. 8" description="Таксист Андрей" />
+  <contact id="4" lastName="Макаров" firstName="Михаил" patronymic="Павлович" phone="9113110987" address="г. Санкт-Петербург, Невский пр., д. 64, кв. 45" description="Сантехник Михаил" />
+  <contact id="5" lastName="Криворучко" firstName="Роза" patronymic="Петровна" phone="9094510955" address="г. Кострома, ул. Жукова., д. 3, кв. 12" description="Стилист Роза" />
+  <contact id="6" lastName="Крузенштерн" firstName="Иван" patronymic="Фёдорович" phone="99944315678" address="г. Санкт-Петербург, ул. Жуковского., д. 45, кв. 28" description="Человек и пароход" />
+</contacts>
